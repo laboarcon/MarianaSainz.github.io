@@ -2,4 +2,126 @@
 │ index.html
 │ styles.css
 │ script.js
-│ /img/  → aquí van tus imágenes de portada y de tienda/portfolio
+│ /img/  "C:\Users\Jcarmon\Pictures\arcon.jpg"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCÓN · Arquitectura, Conservación y Planificación Territorial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">ARCÓN</div>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#blog">Blog / Investigación</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#galeria">Tienda / Portfolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- PORTADA PRINCIPAL -->
+    <section class="portada">
+        <div class="portada-texto">
+            <h1>ARCÓN</h1>
+            <h2>Arquitectura · Conservación · Planificación Territorial</h2>
+            <p>Perspectivas interdisciplinarias para comprender, intervenir y proyectar el territorio.</p>
+            <a href="#sobre-mi" class="btn">Conocer más</a>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section">
+        <h2 class="section-title">Sobre mí</h2>
+        <p class="texto-largo">
+            Dra. en Geografía y Ordenación Territorial, Maestra en Reutilización del Patrimonio Edificado y 
+            Licenciada en Restauración de Bienes Culturales.  
+            Mi trabajo se centra en las relaciones entre territorio, paisaje, memoria, patrimonio y prácticas 
+            culturales, integrando enfoques de la geografía crítica, la conservación y la planificación territorial.
+        </p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+        <h2 class="section-title">Servicios Profesionales</h2>
+
+        <div class="servicios-grid">
+            <div class="servicio">
+                <h3>Análisis y Diagnóstico Territorial</h3>
+                <p>Estudios de paisaje, cartografía y Sistemas de Información Geográfica (SIG).</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Planificación y Ordenación Territorial</h3>
+                <p>Asesoría a administraciones públicas y proyectos de desarrollo local.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Patrimonio y Reutilización</h3>
+                <p>Rehabilitación de edificios y puesta en valor de conjuntos históricos.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Consultoría en Conservación</h3>
+                <p>Conservación, diagnóstico y gestión de colecciones y bienes culturales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG / INVESTIGACIÓN -->
+    <section id="blog" class="section">
+        <h2 class="section-title">Blog / Investigación</h2>
+
+        <p>Algunos de mis trabajos publicados:</p>
+
+        <ul class="lista-publicaciones">
+            <li><a href="https://www.redalyc.org/journal/6040/604071867003/html/" target="_blank">✔ Patrimonio y territorio en América Latina</a></li>
+            <li><a href="https://www.redalyc.org/journal/3832/383281797003/html/" target="_blank">✔ Prácticas culturales y construcción territorial</a></li>
+            <li><a href="https://www.scielo.org.mx/scielo.php?pid=S2007-249X2011000100003&script=sci_abstract" target="_blank">✔ Conservación y memoria en paisajes culturales</a></li>
+        </ul>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos" class="section">
+        <h2 class="section-title">Cursos Virtuales</h2>
+
+        <div class="servicios-grid">
+            <div class="servicio">
+                <h3>Introducción al SIG para proyectos patrimoniales</h3>
+            </div>
+
+            <div class="servicio">
+                <h3>Metodologías para el análisis del paisaje</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIENDA / PORTFOLIO -->
+    <section id="galeria" class="section">
+        <h2 class="section-title">Tienda / Portfolio</h2>
+        <p>Obras, proyectos y piezas disponibles:</p>
+        <div id="gallery" class="gallery"></div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Conecta conmigo a través de LinkedIn:</p>
+        <a href="https://www.linkedin.com/in/mariana-sainz-/" target="_blank" class="btn">Mi LinkedIn</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 ARCÓN · Arquitectura, Conservación y Planificación Territorial</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
